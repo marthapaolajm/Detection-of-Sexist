@@ -1,3 +1,5 @@
+## Original prompt
+
 Hola,
 
 Necesito ayuda para explicar por qué estos tuits en español fueron clasificados como sexistas o no sexistas por mi modelo, que fue entrenado con opiniones de diferentes personas en diferentes rangos de edad y genero, por lo que cada etiqueta es su consenso. El objetivo es una clasificación binaria, donde 1 indica que un tuit es sexista y 0 indica que no lo es. El sistema debe determinar si un tuit contiene expresiones o comportamientos sexistas, es decir, si es sexista en sí mismo, describe una situación sexista o critica un comportamiento sexista.
@@ -29,7 +31,7 @@ Estos son los tuits:
 
 
 Next, I will provide a translation of the prompt into English for enhanced clarity.
-
+## Translated prompt
 
 
 Hello,
@@ -65,3 +67,4 @@ These are the tweets:
 
 @anacaotica88 @MordorLivin I don't remember the details of GamerGate, but she was in the eye of the storm receiving harassment from outraged men (and their geek media) and I think they also harassed Brianna Wu, who is a trans woman. It probably had something to do with that and she wanted to "close ranks". 1
 @cosmicJunkBot I say this every few days and I repeat: ALL of this could have been avoided if GamerGate had been stopped in time 0
+
