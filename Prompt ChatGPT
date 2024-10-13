@@ -1,0 +1,69 @@
+## Original prompt
+
+Hola,
+
+Necesito ayuda para explicar por qué estos tuits en español fueron clasificados como sexistas o no sexistas por mi modelo, que fue entrenado con opiniones de diferentes personas en diferentes rangos de edad y genero, por lo que cada etiqueta es su consenso. El objetivo es una clasificación binaria, donde 1 indica que un tuit es sexista y 0 indica que no lo es. El sistema debe determinar si un tuit contiene expresiones o comportamientos sexistas, es decir, si es sexista en sí mismo, describe una situación sexista o critica un comportamiento sexista.
+
+A continuación, se muestran ejemplos de tuits clasificados como sexistas y no sexistas, junto con una breve explicación de cada caso. Es importante destacar que, independientemente de si los tuits fueron clasificados como sexistas o no sexistas, necesito una explicación de la razón de su clasificación para cada tuit.
+
+Tuits Sexistas (1):
+
+“¡Mujer al volante, ten cuidado!”
+
+Explicación: Este tuit perpetúa un estereotipo negativo sobre las mujeres, sugiriendo que son malas conductoras. Esto es un ejemplo claro de sexismo porque hace una generalización negativa basada en el género.
+“La gente realmente intenta convencer a las mujeres con poco o ningún trasero de que deberían salir y comprarse un cuerpo. Como bih, no necesito un trasero gordo para conseguir un hombre. Nunca tiene."
+
+Explicación: Este tuit refuerza estereotipos sobre el cuerpo femenino y sugiere que la valía de una mujer está ligada a su apariencia física, lo que es una forma de sexismo. También reduce a las mujeres a meros objetos de deseo.
+Tuits No Sexistas (0):
+
+“Alguien me explica que zorra hace la gente en el cajero que se demora tanto.”
+
+Explicación: Aunque el lenguaje es vulgar y ofensivo, no está dirigido específicamente a las mujeres ni perpetúa estereotipos de género. La crítica se dirige a la impaciencia en una situación común, sin connotaciones sexistas claras.
+“@messyworldorder, sinceramente, es muy vergonzoso verlo y dirán: 'no todas las mujeres blancas son así'"
+
+Explicación: Este tuit parece estar comentando sobre un comportamiento o una percepción sin atacar directamente a las mujeres en general. La frase "no todas las mujeres blancas son así" parece referirse a una crítica a una percepción específica sin implicar un juicio sexista.
+En resumen, la clasificación se basa en si el tuit refuerza estereotipos de género, desvaloriza a las mujeres o perpetúa ideas sexistas. Independientemente de si los tuits fueron clasificados como sexistas o no sexistas, necesito una explicación para cada tuit sobre cómo fue clasificado. Espero que esta explicación sea útil para comprender cómo funciona el modelo de clasificación.
+
+Estos son los tuits:
+@anacaotica88 @MordorLivin No me acuerdo de los detalles de GamerGate, pero ella estuvo en el ojo del huracÃ¡n recibiendo acoso de hombres indignados (y sus medios frikis) y creo que tambiÃ©n acosaron a Brianna Wu, q es transfemenino. Seguramente tuvo eso que ver y quiso "cerrar filas".	1
+@cosmicJunkBot lo digo cada pocos dias y lo repito: TODO esto se pudo evitar si se hubiera parado el gamergate a tiempo	0
+
+
+
+Next, I will provide a translation of the prompt into English for enhanced clarity.
+## Translated prompt
+
+
+Hello,
+
+I need help explaining why these Spanish tweets were classified as sexist or non-sexist by my model, which was trained with opinions from different people of various ages and genders, so each label represents their consensus. The goal is a binary classification, where 1 indicates that a tweet is sexist and 0 indicates that it is not. The system should determine if a tweet contains sexist expressions or behaviors, that is, if it is sexist itself, describes a sexist situation, or criticizes sexist behavior.
+
+Below are examples of tweets classified as sexist and non-sexist, along with a brief explanation for each case. It is important to highlight that, regardless of whether the tweets were classified as sexist or non-sexist, I need an explanation for each tweet about the reason for its classification.
+
+Sexist Tweets (1):
+
+
+“¡Mujer al volante, ten cuidado!”
+
+Explanation: This tweet perpetuates a negative stereotype about women, suggesting that they are bad drivers. This is a clear example of sexism because it makes a negative generalization based on gender.
+“La gente realmente intenta convencer a las mujeres con poco o ningún trasero de que deberían salir y comprarse un cuerpo. Como bih, no necesito un trasero gordo para conseguir un hombre. Nunca tiene."
+
+Explanation: This tweet reinforces stereotypes about the female body and suggests that a woman's worth is tied to her physical appearance, which is a form of sexism. It also reduces women to mere objects of desire.
+
+
+Non-Sexist Tweets (0):
+
+
+“Alguien me explica que zorra hace la gente en el cajero que se demora tanto.”
+
+Explanation: Although the language is vulgar and offensive, it is not specifically directed at women nor does it perpetuate gender stereotypes. The criticism is aimed at impatience in a common situation, without clear sexist connotations.
+“@messyworldorder, sinceramente, es muy vergonzoso verlo y dirán: 'no todas las mujeres blancas son así'"
+
+Explanation: This tweet seems to be commenting on behavior or perception without directly attacking women in general. The phrase “not all white women are like that" seems to refer to a specific perception without implying a sexist judgment.
+In summary, the classification is based on whether the tweet reinforces gender stereotypes, devalues women, or perpetuates sexist ideas. Regardless of whether the tweets were classified as sexist or non-sexist, I need an explanation for each tweet on how it was classified. I hope this explanation is useful for understanding how the classification model works.
+
+
+These are the tweets:
+
+@anacaotica88 @MordorLivin I don't remember the details of GamerGate, but she was in the eye of the storm receiving harassment from outraged men (and their geek media) and I think they also harassed Brianna Wu, who is a trans woman. It probably had something to do with that and she wanted to "close ranks". 1
+@cosmicJunkBot I say this every few days and I repeat: ALL of this could have been avoided if GamerGate had been stopped in time 0
