@@ -26,7 +26,7 @@ The first step involves obtaining the **EXIST (EXtreme Identitification of Sexis
 ### 2. Preprocessing the Data
 
 Once you have downloaded the dataset, the following preprocessing steps are applied:
-- **Cleaning**: Remove noise such as tags, and links.
+- **Cleaning**: Replace tags with @USER and links with HTTPURL to prepare the tweets for the RoBERTuito model.
 - **Labeling**: Ensure each tweet is correctly labeled as "sexist" (1) or "non-sexist" (0) as per the dataset, using a fine-tuned RoBERTuito model.
 
 ### 3. Generating Explanations with GPT-4o
